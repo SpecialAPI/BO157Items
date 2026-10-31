@@ -15,7 +15,7 @@ namespace BOStuffPack.Items
         public static void Init()
         {
             var name = "Framed E";
-            var flav = "\"EEEEE E EE EEEEEEEE EEEE EEEEEE.\"";
+            var flav = "\"Press E.\"";
             var desc = "This party member can now move 2 times per turn. Upon this party member moving themself to a new postion, move all enemies in the opposite direction.";
 
             var item = NewItem<MultiCustomTriggerEffectWearable>(ID)
