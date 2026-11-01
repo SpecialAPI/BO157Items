@@ -6,14 +6,12 @@
       <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
       
       <!-- BO build script properties -->
-      <ModFolder>BOStuffPack</ModFolder>
+      <ModFolder>157Items</ModFolder>
       <ModInfoFolder>ModInfo</ModInfoFolder>
       <ModDLLFolder>plugins</ModDLLFolder>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="FMODAssets\Desktop\BOStuffPack.bank" />
-    <None Remove="FMODAssets\Desktop\BOStuffPack.strings.bank" />
     <None Remove="Resources\AbilityIcons\AttackIcon_Anchor.png" />
     <None Remove="Resources\AbilityIcons\AttackIcon_EOTU.png" />
     <None Remove="Resources\AbilityIcons\AttackIcon_Intimidation.png" />
