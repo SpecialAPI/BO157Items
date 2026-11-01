@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.Tools
+namespace BO157Items.Tools
 {
     [HarmonyPatch]
     public static class ConsoleExcluder

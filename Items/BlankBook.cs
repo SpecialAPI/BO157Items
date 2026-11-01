@@ -1,10 +1,10 @@
-﻿using BOStuffPack.CustomTrigger;
-using BOStuffPack.StoredValues;
+﻿using BO157Items.CustomTrigger;
+using BO157Items.StoredValues;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.Items
+namespace BO157Items.Items
 {
     public static class BlankBook
     {

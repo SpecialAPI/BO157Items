@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.TriggerEffects
+namespace BO157Items.TriggerEffects
 {
     public class RandomizeBetweenValuesModifierSetterTriggerEffect(int value1, bool value1IsPercentage, int value2, bool value2IsPercentage) : TriggerEffect
     {

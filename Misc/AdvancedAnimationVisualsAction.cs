@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.Misc
+namespace BO157Items.Misc
 {
     public class AdvancedAnimationVisualsAction(List<AdvancedAnimationData> animations, IUnit caster) : CombatAction
     {

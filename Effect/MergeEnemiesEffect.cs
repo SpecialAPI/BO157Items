@@ -1,10 +1,10 @@
-﻿using BOStuffPack.Passive;
-using BOStuffPack.StoredValues;
+﻿using BO157Items.Passive;
+using BO157Items.StoredValues;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.Effect
+namespace BO157Items.Effect
 {
     public class MergeEnemiesEffect : EffectSO
     {

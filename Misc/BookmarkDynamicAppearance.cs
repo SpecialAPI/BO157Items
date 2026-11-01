@@ -1,9 +1,9 @@
-﻿using BOStuffPack.DynamicAppearances;
+﻿using BO157Items.DynamicAppearances;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.Misc
+namespace BO157Items.Misc
 {
     public class BookmarkDynamicAppearance(string seDataKey, string svDataKey) : DynamicItemAppearanceBase
     {

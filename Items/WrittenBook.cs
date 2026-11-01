@@ -1,11 +1,11 @@
-﻿using BOStuffPack.DynamicAppearances;
-using BOStuffPack.StaticModifiers;
-using BOStuffPack.Tools;
+﻿using BO157Items.DynamicAppearances;
+using BO157Items.StaticModifiers;
+using BO157Items.Tools;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.Items
+namespace BO157Items.Items
 {
     public static class WrittenBook
     {

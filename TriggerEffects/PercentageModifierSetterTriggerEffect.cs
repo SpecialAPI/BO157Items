@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.TriggerEffects
+namespace BO157Items.TriggerEffects
 {
     public class PercentageModifierSetterTriggerEffect(int percentage, bool increase) : TriggerEffect
     {

@@ -1,9 +1,9 @@
-﻿using BOStuffPack.Effect;
+﻿using BO157Items.Effect;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.Items
+namespace BO157Items.Items
 {
     public static class InterdimensionalShapeshifter
     {

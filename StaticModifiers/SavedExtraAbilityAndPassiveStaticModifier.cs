@@ -1,9 +1,9 @@
-﻿using BOStuffPack.Items;
+﻿using BO157Items.Items;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.StaticModifiers
+namespace BO157Items.StaticModifiers
 {
     public class SavedExtraAbilityAndPassiveStaticModifier : WearableStaticModifierSetterSO
     {

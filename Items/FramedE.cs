@@ -1,11 +1,11 @@
-﻿using BOStuffPack.Conditions.Effector;
-using BOStuffPack.StoredValues;
-using BOStuffPack.TriggerEffects;
+﻿using BO157Items.Conditions.Effector;
+using BO157Items.StoredValues;
+using BO157Items.TriggerEffects;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.Items
+namespace BO157Items.Items
 {
     public static class FramedE
     {

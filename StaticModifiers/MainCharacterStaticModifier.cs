@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.StaticModifiers
+namespace BO157Items.StaticModifiers
 {
     [HarmonyPatch]
     public class MainCharacterStaticModifier : ItemModifierDataSetter

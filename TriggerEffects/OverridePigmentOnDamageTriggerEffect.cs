@@ -1,9 +1,9 @@
-﻿using BOStuffPack.CustomTrigger.Args;
+﻿using BO157Items.CustomTrigger.Args;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.TriggerEffects
+namespace BO157Items.TriggerEffects
 {
     public class OverridePigmentOnDamageTriggerEffect(List<ManaColorSO> pigments, bool nullPigmentIsCasterHealthColor = false) : TriggerEffect
     {

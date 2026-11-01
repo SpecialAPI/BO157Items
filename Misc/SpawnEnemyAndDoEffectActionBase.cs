@@ -1,9 +1,9 @@
-﻿using BOStuffPack.Tools;
+﻿using BO157Items.Tools;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.Misc
+namespace BO157Items.Misc
 {
     public abstract class SpawnEnemyAndDoEffectActionBase(EnemySO enemy, int preferredSlot, bool givesExperience, bool trySpawnAnyways, string spawnSoundID = nameof(CombatType_GameIDs.Spawn_Basic), int maxHealth = 0) : CombatAction
     {

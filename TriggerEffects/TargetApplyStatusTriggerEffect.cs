@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.TriggerEffects
+namespace BO157Items.TriggerEffects
 {
     public class TargetApplyStatusTriggerEffect(StatusEffect_SO status, int amount, int restrictor = 0, int unitValueIndex = 0) : TriggerEffect
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.TriggerEffects
+namespace BO157Items.TriggerEffects
 {
     public class MaximizeValueToPercentOfOriginalLateTriggerEffect(int percent) : TriggerEffect
     {

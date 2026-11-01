@@ -1,9 +1,9 @@
-﻿using BOStuffPack.StoredValues;
+﻿using BO157Items.StoredValues;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.Passive
+namespace BO157Items.Passive
 {
     public static class LocalPassives
     {

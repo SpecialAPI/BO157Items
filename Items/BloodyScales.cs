@@ -1,4 +1,4 @@
-namespace BOStuffPack.Items
+namespace BO157Items.Items
 {
     public static class BloodyScales
     {

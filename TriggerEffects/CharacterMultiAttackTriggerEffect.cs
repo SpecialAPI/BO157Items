@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.TriggerEffects
+namespace BO157Items.TriggerEffects
 {
     public class CharacterMultiAttackTriggerEffect(string storedValue) : TriggerEffect
     {

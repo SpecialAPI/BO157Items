@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 
-namespace BOStuffPack
+namespace BO157Items
 {
     [HarmonyPatch]
     public class EnemyInFieldLayout3D : MonoBehaviour

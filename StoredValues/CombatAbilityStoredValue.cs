@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.StoredValues
+namespace BO157Items.StoredValues
 {
     public class CombatAbilityStoredValue : UnitStoreData_BasicSO
     {

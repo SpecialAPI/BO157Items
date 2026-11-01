@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.Misc
+namespace BO157Items.Misc
 {
     public class DodgeDamageValueModifier(IUnit target, DamageReceivedValueChangeException ex, IUnit sender, string tempDisableSV) : IntValueModifier(-1)
     {

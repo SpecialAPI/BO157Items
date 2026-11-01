@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.Effect
+namespace BO157Items.Effect
 {
     public class TransferTargetItemsToCasterEffect : EffectSO
     {

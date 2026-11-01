@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.Misc
+namespace BO157Items.Misc
 {
     public class ExtraLootWithBlacklistPostCombatResult(bool isTreasure, List<string> blacklist, int numItems = 1, bool canBeLocked = false) : AdvancedModdedPostCombatResult
     {

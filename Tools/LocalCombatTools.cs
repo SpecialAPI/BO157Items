@@ -1,9 +1,9 @@
-﻿using BOStuffPack.ReversePatches;
+﻿using BO157Items.ReversePatches;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.Tools
+namespace BO157Items.Tools
 {
     public static class LocalCombatTools
     {

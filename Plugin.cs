@@ -1,15 +1,15 @@
 ﻿using BepInEx;
 using BepInEx.Bootstrap;
-using BOStuffPack.Items;
-using BOStuffPack.Passive;
-using BOStuffPack.ReversePatches;
-using BOStuffPack.StoredValues;
+using BO157Items.Items;
+using BO157Items.Passive;
+using BO157Items.ReversePatches;
+using BO157Items.StoredValues;
 using Grimoire;
 using Steamworks;
 using System;
 using UnityEngine.Rendering.PostProcessing;
 
-namespace BOStuffPack
+namespace BO157Items
 {
     [BepInDependency(BrutalAPI.BrutalAPI.GUID)]
     [BepInDependency(PentaclePlugin.MOD_GUID)]

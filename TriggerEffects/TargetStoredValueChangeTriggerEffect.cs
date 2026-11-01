@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.TriggerEffects
+namespace BO157Items.TriggerEffects
 {
     public class TargetStoredValueChangeTriggerEffect(string sv, int change, IntOperation operation = IntOperation.Add, int unitValueIndex = 0) : TriggerEffect
     {

@@ -1,11 +1,11 @@
-﻿using BOStuffPack.Effect;
-using BOStuffPack.StaticModifiers;
-using BOStuffPack.StoredValues;
+﻿using BO157Items.Effect;
+using BO157Items.StaticModifiers;
+using BO157Items.StoredValues;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.Items
+namespace BO157Items.Items
 {
     public static class DuctTape
     {

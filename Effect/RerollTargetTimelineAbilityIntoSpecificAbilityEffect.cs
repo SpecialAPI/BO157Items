@@ -1,9 +1,9 @@
-﻿using BOStuffPack.Tools;
+﻿using BO157Items.Tools;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.Effect
+namespace BO157Items.Effect
 {
     public class RerollTargetTimelineAbilityIntoSpecificAbilityEffect : EffectSO
     {

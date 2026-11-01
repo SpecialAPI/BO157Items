@@ -1,10 +1,10 @@
-﻿using BOStuffPack.DynamicAppearances;
-using BOStuffPack.Items;
+﻿using BO157Items.DynamicAppearances;
+using BO157Items.Items;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.Misc
+namespace BO157Items.Misc
 {
     public class WrittenBookDynamicAppearance(string abilityDataKey, string passiveDataKey) : DynamicItemAppearanceBase
     {

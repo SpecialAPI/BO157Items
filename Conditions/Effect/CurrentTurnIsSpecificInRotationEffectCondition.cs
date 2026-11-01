@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.Conditions.Effect
+namespace BO157Items.Conditions.Effect
 {
     public class CurrentTurnIsSpecificTurnInRotationEffectCondition : EffectConditionSO
     {

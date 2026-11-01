@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.Misc
+namespace BO157Items.Misc
 {
     public class RecursivelyCloneEnemiesDoEffectsOnClonesAction(EffectInfo[] effects, bool immediateEffects) : CombatAction
     {

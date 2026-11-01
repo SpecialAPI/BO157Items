@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.CustomTrigger.Args
+namespace BO157Items.CustomTrigger.Args
 {
     public class OnBeforeAbilityUsedContext(int abilityIndex, CombatAbility cAbility, AbilitySO ability, FilledManaCost[] cost = null)
     {

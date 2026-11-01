@@ -1,9 +1,9 @@
-﻿using BOStuffPack.CustomTrigger.Args;
+﻿using BO157Items.CustomTrigger.Args;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.CustomTrigger.Patches
+namespace BO157Items.CustomTrigger.Patches
 {
     [HarmonyPatch]
     internal static class ModifyCanProducePigmentFromDamage_Anyone

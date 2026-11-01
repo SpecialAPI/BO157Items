@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.DynamicAppearances
+namespace BO157Items.DynamicAppearances
 {
     [HarmonyPatch]
     internal static class DynamicItemAppearancePatches

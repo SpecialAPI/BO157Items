@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.CustomTrigger
+namespace BO157Items.CustomTrigger
 {
     public static class LocalCustomTriggers
     {

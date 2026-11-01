@@ -1,9 +1,9 @@
-﻿using BOStuffPack.CustomTrigger;
+﻿using BO157Items.CustomTrigger;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.Items
+namespace BO157Items.Items
 {
     public static class Blasphemy
     {

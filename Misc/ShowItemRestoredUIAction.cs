@@ -1,10 +1,10 @@
-﻿using BOStuffPack.Tools;
+﻿using BO157Items.Tools;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using DG.Tweening;
 
-namespace BOStuffPack.Misc
+namespace BO157Items.Misc
 {
     public class ShowItemRestoredUIAction(int id, string itemName, Sprite itemSprite = null) : CombatAction
     {

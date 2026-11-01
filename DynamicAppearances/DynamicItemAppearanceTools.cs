@@ -1,4 +1,4 @@
-﻿namespace BOStuffPack.DynamicAppearances
+﻿namespace BO157Items.DynamicAppearances
 {
     public static class DynamicItemAppearanceTools
     {

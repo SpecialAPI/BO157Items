@@ -1,12 +1,12 @@
-﻿using BOStuffPack.Conditions.Effector;
-using BOStuffPack.CustomTrigger;
-using BOStuffPack.Effect;
-using BOStuffPack.StoredValues;
+﻿using BO157Items.Conditions.Effector;
+using BO157Items.CustomTrigger;
+using BO157Items.Effect;
+using BO157Items.StoredValues;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.Items
+namespace BO157Items.Items
 {
     public static class Knives
     {

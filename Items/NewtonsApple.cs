@@ -1,11 +1,11 @@
-﻿using BOStuffPack.CustomTrigger;
+﻿using BO157Items.CustomTrigger;
 using FMOD;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using UnityEngine.Networking.Types;
 
-namespace BOStuffPack.Items
+namespace BO157Items.Items
 {
     public static class NewtonsApple
     {

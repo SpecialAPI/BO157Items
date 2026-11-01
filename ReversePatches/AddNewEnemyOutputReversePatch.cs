@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.ReversePatches
+namespace BO157Items.ReversePatches
 {
     public static class AddNewEnemyOutputReversePatch
     {

@@ -1,9 +1,9 @@
-﻿using BOStuffPack.Tools;
+﻿using BO157Items.Tools;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.TriggerEffects
+namespace BO157Items.TriggerEffects
 {
     public class RestoreItemReferenceUnitItemTriggerEffect : TriggerEffect
     {

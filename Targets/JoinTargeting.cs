@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.Targets
+namespace BO157Items.Targets
 {
     public class JoinTargeting : BaseCombatTargettingSO
     {

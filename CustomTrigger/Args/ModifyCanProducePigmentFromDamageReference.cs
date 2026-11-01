@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.CustomTrigger.Args
+namespace BO157Items.CustomTrigger.Args
 {
     public class ModifyCanProducePigmentFromDamageReference(bool curr, IUnit damagedUnit, IUnit possibleSourceUnit, int amount, string damageTypeID, bool directDamage, bool ignoreShield, int affectedStartSlot, int affectedEndSlot) : IBoolHolder, IIntHolder, IStringHolder, IUnitHolder
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BOStuffPack.Conditions.Effector
+namespace BO157Items.Conditions.Effector
 {
     public class IntValueInStoreDataEnumerableCheckEffectorCondition : EffectorConditionSO
     {
