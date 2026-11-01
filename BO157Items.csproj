@@ -9,6 +9,7 @@
       <ModFolder>BOStuffPack</ModFolder>
       <ModInfoFolder>ModInfo</ModInfoFolder>
       <ModDLLFolder>plugins</ModDLLFolder>
+      <RootNamespace>BOStuffPack</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
