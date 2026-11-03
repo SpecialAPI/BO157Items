@@ -6,6 +6,14 @@ namespace BO157Items.Tools
 {
     public static class CommonEffects
     {
+        public static readonly List<ManaColorSO> BasicPigmentColors = new()
+        {
+            Pigments.Yellow,
+            Pigments.Red,
+            Pigments.Blue,
+            Pigments.Purple
+        };
+        
         public static readonly EffectSO Damage = CreateScriptable<DamageEffect>();
         public static readonly EffectSO IndirectDamage = CreateScriptable<DamageEffect>(x => x._indirect = true);
 
@@ -19,8 +27,8 @@ namespace BO157Items.Tools
         public static readonly EffectSO GenBlue = GenPigment(Pigments.Blue);
         public static readonly EffectSO GenYellow = GenPigment(Pigments.Yellow);
         public static readonly EffectSO GenPurple = GenPigment(Pigments.Purple);
-        public static readonly EffectSO GenRandomBasicPigment = GenRandomPigment(Pigments.Red, Pigments.Blue, Pigments.Yellow, Pigments.Purple);
-        public static readonly EffectSO RandomizeAllPigment = RandomizeAllPigmntInto(Pigments.Red, Pigments.Blue, Pigments.Yellow, Pigments.Purple);
+        public static readonly EffectSO GenRandomBasicPigment = GenRandomPigment([..BasicPigmentColors]);
+        public static readonly EffectSO RandomizeAllPigment = RandomizeAllPigmntInto([..BasicPigmentColors]);
 
         public static readonly EffectSO Refresh = CreateScriptable<RefreshAbilityUseEffect>();
         public static readonly EffectSO RestoreSwap = CreateScriptable<RestoreSwapUseEffect>();

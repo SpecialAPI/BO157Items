@@ -7,6 +7,7 @@ namespace BO157Items.Effect
     public class ProducePigmentNotUsedForAbilityEffect : EffectSO
     {
         public List<ManaColorSO> pigmentColors;
+        public List<ManaColorSO> poolIfAllPigmentUsed;
 
         public override bool PerformEffect(CombatStats stats, IUnit caster, TargetSlotInfo[] targets, bool areTargetSlots, int entryVariable, out int exitAmount)
         {
@@ -30,8 +31,13 @@ namespace BO157Items.Effect
                 }
             }
 
-            if(pool.Count <= 0)
-                pool.AddRange(pigmentColors);
+            if (pool.Count <= 0)
+            {
+                if (poolIfAllPigmentUsed == null || poolIfAllPigmentUsed.Count == 0)
+                    return false;
+                
+                pool.AddRange(poolIfAllPigmentUsed);
+            }
 
             exitAmount = entryVariable;
             var index = -1;
@@ -64,10 +70,11 @@ namespace BO157Items.Effect
             return true;
         }
 
-        public static EffectSO Create(List<ManaColorSO> pigmentColors)
+        public static EffectSO Create(List<ManaColorSO> pigmentColors, List<ManaColorSO>  poolIfAllPigmentUsed = null)
         {
             var e = CreateScriptable<ProducePigmentNotUsedForAbilityEffect>();
-            e.pigmentColors = pigmentColors ?? [Pigments.Yellow, Pigments.Red, Pigments.Blue, Pigments.Purple];
+            e.pigmentColors = pigmentColors ?? CommonEffects.BasicPigmentColors;
+            e.poolIfAllPigmentUsed = poolIfAllPigmentUsed ?? [];
 
             return e;
         }

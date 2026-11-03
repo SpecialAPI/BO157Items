@@ -69,6 +69,7 @@ namespace BO157Items
             Sawblade.Init();
             TinyFactory.Init();
             EvilRerollItem.Init();
+            TestTube.Init();
         }
 
         public void Start()
