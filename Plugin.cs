@@ -70,6 +70,7 @@ namespace BO157Items
             TinyFactory.Init();
             EvilRerollItem.Init();
             TestTube.Init();
+            Ringer.Init();
         }
 
         public void Start()
