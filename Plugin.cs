@@ -54,21 +54,21 @@ namespace BO157Items
             FramedE.Init();
             Electromagnet.Init();
             Bookmark.Init();
-            UnnamedItem1.Init();
+            UnnamedItem1.Init(); // unthemed
             BlankBook.Init();
             WrittenBook.Init();
             Blasphemy.Init();
             RewardMechanism.Init();
             DiceBullets.Init();
-            UnnamedItem5.Init();
-            UnnamedItem35.Init();
+            UnnamedItem5.Init(); // unthemed
+            UnnamedItem35.Init(); // unthemed
             ImaginaryGun.Init();
             AbstractSymbols.Init();
             DirtBlock.Init();
             BloodyScales.Init();
             Sawblade.Init();
             TinyFactory.Init();
-            EvilRerollItem.Init();
+            EvilRerollItem.Init(); // unthemed
             PetriDish.Init();
             Ringer.Init();
         }
