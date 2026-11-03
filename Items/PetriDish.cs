@@ -1,8 +1,8 @@
 namespace BO157Items.Items
 {
-    public static class TestTube
+    public static class PetriDish
     {
-        public static readonly string ID = "TestTube_SW".Prefix();
+        public static readonly string ID = "PetriDish_SW".Prefix();
         public static readonly string AbilityID = "Mutate_A".Prefix();
         
         public static void Init()
@@ -11,12 +11,12 @@ namespace BO157Items.Items
             var abName = "Mutate";
             var abDesc = $"Produce {numPigment} random pigment not used to perform this ability.";
             
-            var name = "Test Tube";
+            var name = "Petri Dish";
             var flav = "\"Lab-grown organism.\"";
             var desc = $"Adds \"{abName}\" as an additional ability, a reliable pigment rerolling ability.";
 
             var item = NewItem<BasicWearable>(ID)
-                .SetBasicInformation(name, flav, desc, "TestTube")
+                .SetBasicInformation(name, flav, desc, "PetriDish")
                 .SetPrice(6)
                 .AddToShop();
 

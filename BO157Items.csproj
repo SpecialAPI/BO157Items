@@ -108,10 +108,10 @@
     <EmbeddedResource Include="Resources\Items\Knives.png" />
     <None Remove="Resources\AbilityIcons\AttackIcon_Knives.png" />
     <EmbeddedResource Include="Resources\AbilityIcons\AttackIcon_Knives.png" />
-    <None Remove="Resources\Items\TestTube.png" />
-    <EmbeddedResource Include="Resources\Items\TestTube.png" />
     <None Remove="Resources\Items\Ringer.png" />
     <EmbeddedResource Include="Resources\Items\Ringer.png" />
+    <None Remove="Resources\Items\PetriDish.png" />
+    <EmbeddedResource Include="Resources\Items\PetriDish.png" />
   </ItemGroup>
 
   <ItemGroup>
