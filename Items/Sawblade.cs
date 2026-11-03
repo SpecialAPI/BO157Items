@@ -37,11 +37,11 @@ namespace BO157Items.Items
                     doesPopup = true,
 
                     effect = new PercentageModifierSetterTriggerEffect(damageUp, true)
-                        .Add(new TargetStoredValueChangeTriggerEffect(PopupSVID, 1, IntOperation.Set, unitValueIndex: 1)),
+                        .Add(new TargetStoredValueChangeTriggerEffect(PopupSVID, 1, IntOperation.Set, unitValueIndex: 0)),
 
                     conditions = new()
                     {
-                        TargetHealthComparisonEffectorCondition.Create(healthReq, IntComparison.LessThanOrEqual, true)
+                        TargetHealthComparisonEffectorCondition.Create(healthReq, IntComparison.LessThanOrEqual, true, unitValueIndex: 0)
                     }
                 },
                 new()
@@ -54,7 +54,7 @@ namespace BO157Items.Items
 
                     conditions = new()
                     {
-                        TargetStoredValueComparisonEffectorCondition.Create(PopupSVID, 0, IntComparison.LessThanOrEqual)
+                        TargetStoredValueComparisonEffectorCondition.Create(PopupSVID, 0, IntComparison.LessThanOrEqual, unitValueIndex: 1)
                     }
                 },
                 new()
