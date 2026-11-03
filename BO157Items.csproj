@@ -112,6 +112,10 @@
     <EmbeddedResource Include="Resources\Items\Ringer.png" />
     <None Remove="Resources\Items\PetriDish.png" />
     <EmbeddedResource Include="Resources\Items\PetriDish.png" />
+    <None Remove="Resources\Items\Keyhole.png" />
+    <EmbeddedResource Include="Resources\Items\Keyhole.png" />
+    <None Remove="Resources\Items\DoomsdayClock.png" />
+    <EmbeddedResource Include="Resources\Items\DoomsdayClock.png" />
   </ItemGroup>
 
   <ItemGroup>

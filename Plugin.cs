@@ -61,7 +61,7 @@ namespace BO157Items
             RewardMechanism.Init();
             DiceBullets.Init();
             UnnamedItem5.Init(); // unthemed
-            UnnamedItem35.Init(); // unthemed
+            DoomsdayClock.Init();
             ImaginaryGun.Init();
             AbstractSymbols.Init();
             DirtBlock.Init();
