@@ -14,22 +14,44 @@ namespace BO157Items.Items
         {
             var name = "Almighty Branch";
             var flav = "\"Divine Blood.\"";
-            var desc = "Damage dealt by this party member always produces 1 red and 1 pigment of this party member's health color instead of the pigment that would normally be produced.";
+            var desc = "This party member's health color is now red. All direct damage produces pigment of the attacker's health color instead of the target's.\nUpon this party member receiving any damage, randomize all party members' health colors.";
 
-            var itm = NewItem<MultiCustomTriggerEffectWearable>(ID)
+            var item = NewItem<MultiCustomTriggerEffectWearable>(ID)
                 .SetBasicInformation(name, flav, desc, "AlmightyBranch")
                 .SetPrice(3)
                 .AddToTreasure();
 
-            itm.SetTriggerEffects(new()
+            item.SetStaticModifiers(HealthColorModifier(Pigments.Red));
+            item.SetConnectionEffects(new()
             {
                 new()
                 {
-                    trigger = LocalCustomTriggers.ModifyTargetCanProducePigmentFromDamage,
                     doesPopup = true,
+                    immediate = false,
+                    
+                    effect = null
+                }
+            });
+            item.SetTriggerEffects(new()
+            {
+                new()
+                {
+                    trigger = LocalCustomTriggers.ModifyCanProducePigmentFromDamage_Anyone,
+                    doesPopup = false,
                     immediate = true,
 
-                    effect = new OverridePigmentOnDamageTriggerEffect([Pigments.Red, null], true)
+                    effect = new OverridePigmentWithSourceHealthColorTriggerEffect()
+                },
+                new()
+                {
+                    trigger = TriggerCalls.OnDamaged.ToString(),
+                    doesPopup = true,
+                    immediate = false,
+                    
+                    effect = new PerformEffectTriggerEffect(new()
+                    {
+                        Effects.GenerateEffect(CommonEffects.RandomizeHealthColor, 0, Targeting.Unit_AllAllies)
+                    })
                 }
             });
         }

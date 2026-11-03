@@ -118,5 +118,12 @@ namespace BO157Items.Tools
                 cc.CharacterWearableModifiers.BasicAbilityModifier :
                 cc.Character.basicCharAbility;
         }
+
+        public static int NumPigmentOnDamage(this IUnit u)
+        {
+            return u.IsUnitCharacter
+                ? LoadedDBsHandler.CombatData.CharacterPigmentAmount
+                : LoadedDBsHandler.CombatData.EnemyPigmentAmount;
+        }
     }
 }

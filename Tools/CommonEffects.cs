@@ -30,6 +30,14 @@ namespace BO157Items.Tools
         public static readonly EffectSO GenRandomBasicPigment = GenRandomPigment([..BasicPigmentColors]);
         public static readonly EffectSO RandomizeAllPigment = RandomizeAllPigmntInto([..BasicPigmentColors]);
 
+        public static readonly EffectSO RedHealth = RandomizeHealthColorInto(Pigments.Red);
+        public static readonly EffectSO BlueHealth = RandomizeHealthColorInto(Pigments.Blue);
+        public static readonly EffectSO YellowHealth = RandomizeHealthColorInto(Pigments.Yellow);
+        public static readonly EffectSO PurpleHealth = RandomizeHealthColorInto(Pigments.Purple);
+        public static readonly EffectSO GreyHealth = RandomizeHealthColorInto(Pigments.Grey);
+        public static readonly EffectSO RandomizeHealthColor = RandomizeHealthColorInto([..BasicPigmentColors]);
+        public static readonly EffectSO RandomizeHealthColorIncludingGrey = RandomizeHealthColorInto([..BasicPigmentColors, Pigments.Grey]);
+
         public static readonly EffectSO Refresh = CreateScriptable<RefreshAbilityUseEffect>();
         public static readonly EffectSO RestoreSwap = CreateScriptable<RestoreSwapUseEffect>();
 
@@ -101,6 +109,14 @@ namespace BO157Items.Tools
         {
             var e = CreateScriptable<RandomizeAllManaEffect>();
             e.manaRandomOptions = pool;
+
+            return e;
+        }
+
+        public static EffectSO RandomizeHealthColorInto(params ManaColorSO[] pool)
+        {
+            var e = CreateScriptable<ChangeToRandomHealthColorEffect>();
+            e._healthColors = pool;
 
             return e;
         }
