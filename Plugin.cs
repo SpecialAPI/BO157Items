@@ -19,7 +19,7 @@ namespace BO157Items
     {
         public const string MOD_GUID        = "157.Items";
         public const string MOD_NAME        = "157 ITEMS";
-        public const string MOD_VERSION     = "0.0.2";
+        public const string MOD_VERSION     = "0.0.3";
         public const string MOD_PREFIX      = "157Items";
 
         public static readonly Harmony HarmonyInstance   = new(MOD_GUID);
